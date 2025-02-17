@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JornadaQuest: La Aventura Laboral</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JornadaQuest: La Aventura Laboral</h1>
+    </header>
+    <div id="game-container">
+        <div id="start-screen">
+            <h1>COMIENZA TU AVENTURA</h1>
+            <button id="start-btn">Comenzar</button>
+        </div>
+
+        <div id="instructions-screen" class="hidden">
+            <h2>Instrucciones</h2>
+            <p>Responde correctamente las preguntas sobre la jornada laboral y la gestión del tiempo en el trabajo. ¡Cada acierto suma puntos!</p>
+            <button id="continue-btn">Continuar</button>
+        </div>
+
+        <div id="question-screen" class="hidden">
+            <h2 id="question-text"></h2>
+            <div id="options"></div>
+            <p id="feedback"></p>
+            <p id="question-counter"></p>
+            <button id="next-btn" class="hidden">Siguiente</button>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h2>Resultados</h2>
+            <p id="score-text"></p>
+            <button id="restart-btn">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
