@@ -114,7 +114,7 @@ continueBtn.addEventListener("click", () => {
 
 function showQuestion() {
     const q = questions[currentQuestionIndex];
-    questionText.textContent = q.question;
+    questionText.innerHTML = `<h2>Pregunta ${currentQuestionIndex + 1}</h2> <p>${q.question}</p>`; 
     optionsContainer.innerHTML = "";
     feedbackText.textContent = "";
     feedbackText.className = ""; // 🔹 Elimina clases anteriores
@@ -131,6 +131,7 @@ function showQuestion() {
         optionsContainer.appendChild(btn);
     });
 }
+
 
 
 function selectAnswer(index, shuffledOptions, correctIndex) {

@@ -22,6 +22,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 140px;
 }
 
 #game-container:hover {
@@ -30,7 +31,7 @@ body {
 }
 
 header { 
-    position: absolute; 
+    position: fixed; 
     top: 0px; 
     margin-top: 20px; 
 } 
