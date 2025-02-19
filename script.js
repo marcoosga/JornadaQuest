@@ -21,8 +21,8 @@ const questions = [
         correct: 0
     },
     {
-        question: "Explica la diferencia entre horas extraordinarias estructurales y no estructurales, y qué implicaciones tienen.",
-        options: ["Las estructurales son necesarias para la producción, las no estructurales son voluntarias.", "Ambas son obligatorias.", "Las estructurales se pagan menos que las no estructurales."],
+        question: "Pedro trabaja en turnos rotativos, incluyendo el turno de noche. Sin embargo, ha solicitado permanecer en este último debido a razones personales. ¿En qué condiciones puede permanecer en el turno nocturno de manera permanente?",
+        options: ["No puede permanecer en el turno de noche más de dos semanas seguidas, salvo si lo hace voluntariamente.", "Solo si su empresa se lo permite y si es mayor de 18 años, ya que los menores no pueden trabajar en turno nocturno.", "Solo puede quedarse en el turno de noche si su empresa lo autoriza y no supera el límite de 8 horas de media en 14 días."],
         correct: 0
     },
     {
@@ -41,50 +41,35 @@ const questions = [
         correct: 0
     },
     {
-        question: "Analiza el impacto de las jornadas laborales nocturnas y los turnos rotativos en la salud y productividad.",
-        options: ["Afectan el sueño y pueden provocar problemas de salud", "No tienen impacto en la salud", "Mejoran la productividad y el bienestar"],
+        question: "Un trabajador a tiempo parcial solicita hacer horas extraordinarias para incrementar su salario. ¿En qué circunstancias puede realizarlas?",
+        options: ["No puede realizarlas en ningún caso, salvo por fuerza mayor.", "Puede hacerlas solo si están pactadas en su contrato o convenio, pero sin superar el límite anual de 80 horas extras.", "Puede hacerlas siempre que no superen las 8 horas diarias, compensándolas con descanso o remuneración adicional."],
         correct: 0
     },
     {
-        question: "¿Qué elementos debe incluir obligatoriamente un recibo de salario?",
-        options: ["Salario base, complementos y deducciones", "Solo el salario neto", "No es obligatorio un desglose"],
+        question: "Valerio trabaja en jornada continuada y su empresa le ha informado sobre los descansos a los que tiene derecho. Sin embargo, ella duda sobre si estos descansos se consideran tiempo de trabajo efectivo. ¿Cuál de las siguientes afirmaciones es correcta?",
+        options: ["Los descansos dentro de la jornada laboral se consideran tiempo de trabajo efectivo solo si el convenio lo establece.", "Siempre se consideran tiempo de trabajo efectivo, ya que forman parte de la jornada laboral.", "No se consideran tiempo de trabajo efectivo en ningún caso, independientemente de lo que establezca el convenio."],
         correct: 0
     },
     {
-        question: "Explica los derechos de los trabajadores en caso de adopción, guarda con fines de adopción o acogimiento.",
-        options: ["Tienen derecho a un permiso de 16 semanas", "Solo tienen 2 semanas de permiso", "No tienen derechos adicionales"],
+        question: " Imagina que tu empresa decide trasladarte a otra ciudad de manera definitiva. ¿Qué opciones tienes según la ley?",
+        options: ["Aceptar el traslado con una compensación por los gastos (incluidos los de tu familia) o rechazarlo y recibir 20 días de salario por año trabajado como indemnización.", "Negarte sin más, ya que no pueden obligarte a cambiar de residencia.", "Aceptar el traslado, pero con derecho a volver a tu puesto original pasados seis meses"],
         correct: 0
     },
     {
-        question: "¿En qué circunstancias un trabajador puede solicitar una suspensión de contrato?",
-        options: ["Por incapacidad temporal o mutuo acuerdo", "Solo si la empresa lo permite", "No puede suspenderse un contrato"],
+        question: "Si la empresa cambia tus funciones dentro de tu mismo grupo profesional, ¿cuales son las consecuencias?",
+        options: ["No hace falta justificar el cambio ni establecer un limite de tiempo, y tú no puedes rechazarlo", " Solo pueden hacerlo por un máximo de 6 meses en un año, salvo que el convenio diga lo contrario", "Tendrían que subirte el sueldo para compensar el cambio de funciones"],
         correct: 0
     },
     {
-        question: "Describe las distintas causas de despido y los derechos del trabajador ante una rescisión de contrato por causas objetivas.",
-        options: ["El trabajador tiene derecho a indemnización en despidos objetivos", "No tiene derecho a compensación", "Todos los despidos son improcedentes"],
+        question: "Tu empresa decide modificar tu jornada laboral sin tu consentimiento. ¿Qué NO puedes hacer en este caso?",
+        options: ["Exigir que te mantengan las condiciones originales sin recurrir a la vía judicial o sindical", "Renunciar al trabajo con derecho a una indemnización de 33 días por año trabajado, si el cambio afecta negativamente a tu dignidad.", "Aceptar el cambio y continuar con tu trabajo como si nada."],
         correct: 0
     },
     {
-        question: "¿Qué es la movilidad funcional y cómo se diferencia de la movilidad geográfica?",
-        options: ["Funcional es cambio de puesto dentro de la empresa, geográfica es cambio de ubicación", "Son lo mismo", "La movilidad funcional no existe en la ley"],
+        question: "Hay muchas situaciones en las que un contrato de trabajo se puede suspender. Pero, ¿en cuál de estas seguirías cobrando gracias a la Seguridad Social?",
+        options: ["Si una mujer está embarazada y hay riesgo para tu salud o la del bebé, o si estás en periodo de lactancia.", "Si decides hacer huelga hasta que se resuelva el conflicto laboral", " Si te detienen sin sentencia condenatoria, pero luego te dejan en libertad."],
         correct: 0
     },
-    {
-        question: "¿Cuáles son los procedimientos y requisitos para solicitar una excedencia por cuidado de familiares?",
-        options: ["Debe solicitarse con preaviso y tiene una duración máxima de 2 años", "Es obligatoria para la empresa", "No existe este tipo de excedencia"],
-        correct: 0
-    },
-    {
-        question: "En caso de conflicto laboral, ¿qué vías extrajudiciales existen para resolver disputas?",
-        options: ["Mediación, conciliación y arbitraje", "Solo se resuelven en tribunales", "No hay mecanismos legales disponibles"],
-        correct: 0
-    },
-    {
-        question: "Explica las principales ayudas y recursos disponibles para trabajadores en situación de desempleo prolongado.",
-        options: ["Prestaciones por desempleo, subsidios y programas de reinserción laboral", "Solo pueden buscar otro empleo", "No existen ayudas"],
-        correct: 0
-    }
 ];
 
 // Mezclar respuestas aleatoriamente en cada pregunta
